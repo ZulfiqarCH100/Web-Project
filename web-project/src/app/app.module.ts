@@ -12,6 +12,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyComponent } from './body/body.component';
 import { BannerComponent } from './banner/banner.component';
+import { ShareButtonComponent } from './share-button/share-button.component';
+import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
+import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 
 @NgModule({
   declarations: [
@@ -22,11 +25,16 @@ import { BannerComponent } from './banner/banner.component';
     FooterComponent,
     BodyComponent,
     BannerComponent,
+    ShareButtonComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
+    ShareButtonsModule.withConfig({
+      debug: true,
+    }),
+    ShareIconsModule,
   ],
   providers: [AuthService],
   bootstrap: [AppComponent],
