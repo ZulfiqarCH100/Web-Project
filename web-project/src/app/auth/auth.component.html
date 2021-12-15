@@ -1,0 +1,40 @@
+<div class="mainDiv">
+  <div
+    class="
+      d-flex
+      flex-column
+      justify-content-center
+      align-items-center
+      innerDiv
+    "
+  >
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <h1 class="heading mt-5">Get 1 free month of Skillshare</h1>
+      <h6 class="mt-1 subHeading">Just log in to continue</h6>
+    </div>
+    <div class="d-flex flex-column mt-5">
+      <button
+        class="button d-flex justify-content-start align-items-center"
+        (click)="signInWithFacebook()"
+      >
+        <img src="https://img.icons8.com/color/26/000000/facebook-new.png" />
+        <span class="px-5">Continue with Facebook</span>
+      </button>
+      <button
+        class="mt-2 button d-flex justify-content-start align-items-center"
+        (click)="signInWithGoogle()"
+      >
+        <img src="https://img.icons8.com/color/24/000000/google-logo.png" />
+        <span class="px-5">Continue with Google</span>
+      </button>
+      <button
+        class="mt-2 button d-flex justify-content-start align-items-center"
+        (click)="signInWithMicrosoft()"
+      >
+        <img src="https://img.icons8.com/color/26/000000/microsoft.png" />
+        <span class="px-5">Continue with Microsoft</span>
+      </button>
+      <div>{{ getName() }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.mainDiv {
+  background-color: rgb(244, 244, 244);
+  height: 100vh;
+  font-family: "gt walsheim pro", helvetica, arial, sans-serif;
+}
+
+.heading {
+  color: rgb(0, 35, 51);
+
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.subHeading {
+  color: rgb(0, 35, 51);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.button {
+  height: 40px;
+  background-color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  border: 1px solid black;
+}
