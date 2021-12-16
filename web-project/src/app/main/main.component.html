@@ -1,8 +1,14 @@
 <app-header></app-header>
-<div>
-  <ng-adsense
-    [adClient]="'ca-pub-4721374201377528'"
-    [pageLevelAds]="true"
-  ></ng-adsense>
+<div class="container-fluid" style="background-color: #f4f4f4">
+  <div class="row">
+    <app-sidenavbar class="col-lg-3 col-md-3"></app-sidenavbar>
+    <app-mainpanel
+      class="col-lg-8 col-md-12 main_panel position-relative"
+    ></app-mainpanel>
+    <ng-adsense
+      [adClient]="'ca-pub-4721374201377528'"
+      [pageLevelAds]="true"
+    ></ng-adsense>
+    <app-footer></app-footer>
+  </div>
 </div>
-<app-footer></app-footer>

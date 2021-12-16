@@ -1,0 +1,80 @@
+.main_panel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4 !important;
+}
+
+body {
+  background-color: #f4f4f4 !important;
+}
+.my_banner {
+  border: none;
+  height: 247px;
+  width: 100%;
+  filter: contrast(100%);
+  opacity: 1.5;
+  filter: grayscale(30%);
+  border-radius: 8px;
+}
+
+.text1_on_banner {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  line-height: 1.22;
+}
+
+.text2_on_banner {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "GT Walsheim Pro", Arial, sans-serif;
+  line-height: 1.33;
+}
+
+.button_on_banner {
+  padding: 10px 20px 10px 20px;
+  display: block;
+  position: absolute;
+  left: 80px;
+  top: 150px;
+  background-color: #01ff84;
+  border: 1px solid #01ff84;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.button_on_banner:hover {
+  background-color: rgb(79, 216, 79);
+}
+.skills_btn {
+  background-color: transparent;
+  border: 1px solid #002333;
+  color: #002333;
+  text-decoration: none;
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px;
+  font-family: gt walsheim pro, sans-serif;
+  font-weight: 700;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: fit-content;
+  line-height: 26px;
+  width: fit-content;
+  font-size: 13px;
+}
+
+.skills_btn:hover {
+  background-color: #022334;
+  color: white;
+  border: 1px solid #022334;
+}
+
+.link_side_bar2 {
+  color: #022334;
+  font-weight: bold;
+  font-size: small;
+}

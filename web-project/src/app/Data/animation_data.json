@@ -1,0 +1,171 @@
+{
+  "related_skills": [
+    { "1": "2d Animation" },
+    { "2": "3D Animation" },
+    { "3": "3D Design" },
+    { "4": "3D Modeling" },
+    { "5": "3D Rendering" },
+    { "6": "Adobe After Effects" },
+    { "7": "After Effects" },
+    { "8": "Character Animation" },
+    { "9": "Creative" },
+    { "10": "Motion Graphics" }
+  ],
+
+  "main_card": {
+    "img_src": "https://static.skillshare.com/uploads/video/thumbnails/4365836f5098c6b0677eaea36606d6a1/original",
+    "title": "Collage Animation in Procreate: How to Combine Vintage & Modern Elements",
+    "person_name": "Kelley Bren Burke",
+    "person_img_link": "https://static.skillshare.com/uploads/users/9615490/user-image-medium.jpg?936290756",
+    "tags": "Digital Artist & Educator",
+    "no_of_students": "101 students",
+    "time": "1h 10m"
+  },
+
+  "featured_cards": [
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/0b595ef8d8f423cee21a28f55b3efe24/original",
+      "title": "Intro to Motion Graphics: Animate Collage Style Explainer Videos",
+      "person_name": "Hongshu Guo",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "286 Students",
+      "time": "2h 35m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/d59aebd7807d0db39a8df3dcb5880360/original",
+      "title": "Create an Ocean Loop in Cinema 4D and After Effects",
+      "person_name": "Don Mupasi X Visualdon",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "4245 Students",
+      "time": "1h 16m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/4d92948de5cb10bfc0a03e3725f2a149/original",
+      "title": "The Stop Motion Look in Adobe After Effects",
+      "person_name": "Jake Bartlett",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "3747 Students",
+      "time": "2h 56m"
+    }
+  ],
+
+  "popular_cards": [
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/9c03f4c519f1c7de233d434731ea404f/original",
+      "title": "The Beginner's Guide to Adobe After Effects",
+      "person_name": "John Guo",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "2860 Students",
+      "time": "3h 35m"
+    },
+
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/4aec6448b06e6e80e2f8401053003742/original",
+      "title": "Blender 3D: Your First 3D Character",
+      "person_name": "Don Jack X Visualdon",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "1245 Students",
+      "time": "1h 49m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/51a23cf8b1cc1288ed61e721c2792c08/original",
+      "title": "Animating With Ease in Adobe After Effects",
+      "person_name": "Drake Bartlett",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "8747 Students",
+      "time": "4h 36m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/92db634c84d88e0c9fa48ae120fc8ae9/original",
+      "title": "Level Up Your Typography: Creating Animated Stickers in After Effects",
+      "person_name": "Brett Lee",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "964 Students",
+      "time": "1h 36m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/1c60bfcdd1b2beea745b4f3fa66e2ff9/original",
+      "title": "Animating 2d Scenes in After Effects (Beginner Level)",
+      "person_name": "Don Mupasi X Visualdon",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "152 Students",
+      "time": "1h 02m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/b617c7945a243b7789ef1a938b292913/original",
+      "title": "Adobe After Effects CC - Animated Infographic Video & Data Visualisation.",
+      "person_name": "John Bartlett",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "6747 Students",
+      "time": "4h 05m"
+    }
+  ],
+
+  "trending_cards": [
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/d2ccc33c10b171798669fe9d6522e3bb/original",
+      "title": "Animation Principles: Add Playful Personality To Your Animations",
+      "person_name": "Charles Guo",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "1860 Students",
+      "time": "1h 35m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/95918ce800e6cad4b12ecbf6388abc2d/original",
+      "title": "Kinetic Typography Animation in After Effects",
+      "person_name": "Klarens Malluta",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "1245 Students",
+      "time": "1h 49m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/1779e64381cc941f5d8b0d6ecacf6000/original",
+      "title": "Looping Animated Scenes in Adobe After Effects",
+      "person_name": "Megan Friesth",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "798 Students",
+      "time": "2h 11m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/3e9c82fa7db7b7abdae008b0567796d6/original",
+      "title": "Unreal Engine for Architecture - Class #1",
+      "person_name": "Yahiya Jasem",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "1273 Students",
+      "time": "2h 09m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/c68e092d93f89e9a685f4b1801b451ba/original",
+      "title": "Frame by Frame Animation: Fun Tips and Tricks for Non-Animators",
+      "person_name": "Chris Piascik",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "3833 Students",
+      "time": "2h 10m"
+    },
+    {
+      "img_src": "https://static.skillshare.com/cdn-cgi/image/width=448,quality=85,format=auto/uploads/video/thumbnails/d2ccc33c10b171798669fe9d6522e3bb/original",
+      "title": "Animation Principles: Add Playful Personality To Your Animations",
+      "person_name": "Jake Bartlett",
+      "person_img_link": "",
+      "tags": "",
+      "no_of_students": "4441 Students",
+      "time": "3h 17m"
+    }
+  ],
+
+  "description_file": "animation_descrpt.txt"
+}

@@ -15,7 +15,9 @@ import { BannerComponent } from './banner/banner.component';
 import { ShareButtonComponent } from './share-button/share-button.component';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
-import { AdsenseModule } from 'ng2-adsense'; //AdSense
+import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
+import { MainpanelComponent } from './mainpanel/mainpanel.component';
+import { AdsenseModule } from 'ng2-adsense';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { AdsenseModule } from 'ng2-adsense'; //AdSense
     BodyComponent,
     BannerComponent,
     ShareButtonComponent,
+    SidenavbarComponent,
+    MainpanelComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,

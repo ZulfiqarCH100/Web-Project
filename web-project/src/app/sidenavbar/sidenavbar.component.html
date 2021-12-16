@@ -1,0 +1,45 @@
+<div class="my_side_bar position-relative d-none d-lg-block my-5">
+  <div class="nav flex-column flex-nowrap">
+    <a
+      href="./"
+      class="nav-link link_side_bar"
+      style="color: #022334; font-size: medium"
+      >All Classes</a
+    >
+    <li
+      class="mt-1 header nav-link link_side_bar_header"
+      style="color: #022334"
+    >
+      CREATE
+    </li>
+    <ng-container *ngFor="let c of create; let indexOfelement = index">
+      <a href="./" class="my-1 nav-link link_side_bar" style="color: #022334">{{
+        c[indexOfelement + 1]
+      }}</a>
+    </ng-container>
+
+    <li
+      class="mt-1 header nav-link link_side_bar_header"
+      style="color: #022334"
+    >
+      BUILD
+    </li>
+    <ng-container *ngFor="let b of build; let indexOfelement = index">
+      <a href="./" class="my-1 nav-link link_side_bar" style="color: #022334">{{
+        b[indexOfelement + 1]
+      }}</a>
+    </ng-container>
+
+    <li
+      class="mt-1 header nav-link link_side_bar_header"
+      style="color: #022334"
+    >
+      THRIVE
+    </li>
+    <ng-container *ngFor="let t of thrive; let indexOfelement = index">
+      <a href="./" class="my-1 nav-link link_side_bar" style="color: #022334">{{
+        t[indexOfelement + 1]
+      }}</a>
+    </ng-container>
+  </div>
+</div>
