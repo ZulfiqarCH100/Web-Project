@@ -15,6 +15,8 @@ import { BannerComponent } from './banner/banner.component';
 import { ShareButtonComponent } from './share-button/share-button.component';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
+import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
+import { MainpanelComponent } from './mainpanel/mainpanel.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
     BodyComponent,
     BannerComponent,
     ShareButtonComponent,
+    SidenavbarComponent,
+    MainpanelComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,

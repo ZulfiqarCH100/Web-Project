@@ -1,0 +1,46 @@
+{
+  "Create": [
+    { "1": "Animation" },
+    { "2": "Creative Writing" },
+    { "3": "File & Video" },
+    { "4": "Fine Art" },
+    { "5": "Graphic Design" },
+    { "6": "Illustration" },
+    { "7": "Music" },
+    { "8": "Photography" },
+    { "9": "UI/UX Design" },
+    { "10": "Web Development" }
+  ],
+  "Build": [
+    { "1": "Business Analytics" },
+    { "2": "Freelance & Entrepreneurship" },
+    { "3": "Leadership & Management" },
+    { "4": "Marketing" }
+  ],
+
+  "Thrive": [{ "1": "Lifestyle" }, { "2": "Productivity" }],
+
+  "company": [
+    { "1": "About" },
+    { "2": "Careers" },
+    { "3": "Press" },
+    { "4": "Blog" },
+    { "5": "Affiliates" },
+    { "6": "Partnerships" }
+  ],
+
+  "community": [
+    { "1": "Go Premiun" },
+    { "2": "Team Plans" },
+    { "3": "Refer a Friend" },
+    { "4": "Limited Memberships" },
+    { "5": "Scholarships" },
+    { "6": "Free Classes" }
+  ],
+
+  "teaching": [
+    { "1": "Become a Teacher" },
+    { "2": "Teaching Academy" },
+    { "3": "Teachers Handbook" }
+  ]
+}
