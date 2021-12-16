@@ -1,0 +1,41 @@
+.bottom_container {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 5%;
+}
+
+.bottom_btn_links {
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+  padding-top: 2px;
+}
+
+.bottom_btn_links:hover {
+  color: #01ff84;
+  text-decoration: underline;
+  background-color: #022334;
+}
+
+.social_icons {
+  width: 120px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+.last_row {
+  border-top: 1px solid #01ff84;
+  margin-bottom: 5%;
+}
+
+.bottom_btn_links2 {
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+  padding-top: 5px;
+}
+.bottom_btn_links2:hover {
+  color: #01ff84;
+  text-decoration: underline;
+}

@@ -1,0 +1,87 @@
+.color-nav {
+  background-color: #022334;
+}
+
+.theme_color {
+  color: #01ff84;
+}
+
+#navbarScrollingDropdown {
+  color: #01ff84;
+  font-weight: bold;
+  margin-right: 5px !important;
+}
+
+#navbarScrollingDropdown1 {
+  color: #022334;
+  font-weight: bold;
+  margin-right: 5px !important;
+}
+
+#navbarScrollingDropdown2 {
+  color: #022334;
+  font-weight: bolder;
+
+  margin-top: 20px !important;
+  font-size: xx-large;
+}
+
+.links_nav_bar {
+  color: white !important;
+  text-decoration-line: none;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.links_nav_bar:hover {
+  color: #01ff84 !important;
+}
+
+.my_button {
+  padding: 6px !important;
+  margin-top: 0px !important;
+  background-color: #01ff84 !important;
+  border: 1px solid #01ff84 !important;
+  font-weight: bolder !important;
+  font-size: large !important;
+  border-radius: 4px !important;
+  color: #022334 !important;
+}
+
+.my_search {
+  width: 50% !important;
+  background-color: #022334 !important;
+  background-position: left;
+  padding-left: 50px !important;
+  font-weight: bold;
+  height: 45px !important;
+  background-repeat: no-repeat !important;
+  color: white !important;
+}
+
+.my_md_btn {
+  background-color: #022334 !important;
+  color: white !important;
+  border: 1px solid white !important;
+  font-weight: bolder !important;
+}
+
+.my_md_btn:hover {
+  background-color: white !important;
+  color: #022334 !important;
+  border: 1px solid white !important;
+}
+
+.dropdown-menu {
+  width: 600px !important;
+  height: fit-content !important;
+}
+
+.link_side_bar_header {
+  color: #022334 !important;
+  font-weight: bold !important;
+  font-size: medium !important;
+  border: none !important;
+  border-bottom: 1px solid grey !important;
+  background-color: #f4f4f4;
+}
