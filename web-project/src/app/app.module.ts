@@ -15,6 +15,7 @@ import { BannerComponent } from './banner/banner.component';
 import { ShareButtonComponent } from './share-button/share-button.component';
 import { ShareButtonsModule } from 'ngx-sharebuttons/buttons';
 import { ShareIconsModule } from 'ngx-sharebuttons/icons';
+import { AdsenseModule } from 'ng2-adsense'; //AdSense
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
       debug: true,
     }),
     ShareIconsModule,
+    AdsenseModule.forRoot(),
   ],
   providers: [AuthService],
   bootstrap: [AppComponent],

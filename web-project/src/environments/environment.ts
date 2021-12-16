@@ -13,6 +13,9 @@ export const environment = {
     appId: '1:673312906049:web:ccd58928c0d63d44581fc0',
     measurementId: 'G-WEHB3PHSMJ',
   },
+
+  //adSense code
+  adSense: { adClient: 'pub-4721374201377528', showAds: true },
 };
 
 /*
