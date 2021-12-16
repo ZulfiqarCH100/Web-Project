@@ -18,6 +18,8 @@ import { ShareIconsModule } from 'ngx-sharebuttons/icons';
 import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 import { MainpanelComponent } from './mainpanel/mainpanel.component';
 import { AdsenseModule } from 'ng2-adsense';
+import { MapComponent } from './map/map.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { AdsenseModule } from 'ng2-adsense';
     ShareButtonComponent,
     SidenavbarComponent,
     MainpanelComponent,
+    MapComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,
@@ -41,6 +44,8 @@ import { AdsenseModule } from 'ng2-adsense';
     }),
     ShareIconsModule,
     AdsenseModule.forRoot(),
+    GoogleMapsModule
+    
   ],
   providers: [AuthService],
   bootstrap: [AppComponent],
