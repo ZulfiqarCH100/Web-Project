@@ -1,0 +1,51 @@
+<div class="mt-4" style="border-bottom: 1px solid lightgrey"></div>
+
+<div class="card mb-3 mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{ data.img_src }}" alt="img" class="img-fluid rounded-start" />
+    </div>
+    <div class="col-md-6 d-flex justify-content-start">
+      <div class="card-body">
+        <div class="card-title">
+          <a href="#" class="card_links">
+            {{ data.title }}
+          </a>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-2">
+              <img
+                src="{{ data.person_img_link }}"
+                class="rounded-circle"
+                alt="main_course_img"
+                style="width: 80%; height: 80%"
+              />
+            </div>
+
+            <div class="col-lg-10">
+              <div class="row">
+                <h5 style="font-size: medium">
+                  {{ data.person_name }}
+                </h5>
+              </div>
+              <div class="row">
+                <h5 style="font-size: smaller">
+                  {{ data.tags }}
+                </h5>
+              </div>
+              <div class="row">
+                <h5 style="font-size: smaller">
+                  {{ data.no_of_students }}
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-text">
+          {{ data.time }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

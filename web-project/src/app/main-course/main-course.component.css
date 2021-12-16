@@ -1,0 +1,27 @@
+.card_links {
+  text-decoration: none;
+  color: #022334;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card_links:hover {
+  color: #022334;
+}
+
+.card-text {
+  color: #022334;
+}
+
+h5 {
+  color: #022334;
+}
+
+.card {
+  border-radius: 8px;
+  border-width: thin;
+}
+
+.card:hover {
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+}

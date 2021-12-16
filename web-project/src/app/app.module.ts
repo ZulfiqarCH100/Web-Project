@@ -20,6 +20,9 @@ import { MainpanelComponent } from './mainpanel/mainpanel.component';
 import { AdsenseModule } from 'ng2-adsense';
 import { MapComponent } from './map/map.component';
 import { GoogleMapsModule } from '@angular/google-maps';
+import { CoursesComponent } from './courses/courses.component';
+import { CourseComponent } from './course/course.component';
+import { MainCourseComponent } from './main-course/main-course.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,9 @@ import { GoogleMapsModule } from '@angular/google-maps';
     SidenavbarComponent,
     MainpanelComponent,
     MapComponent,
+    CoursesComponent,
+    CourseComponent,
+    MainCourseComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,

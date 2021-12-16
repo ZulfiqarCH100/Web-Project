@@ -1,0 +1,89 @@
+<div class="container-fluid">
+  <app-main-course [data]="main_card"></app-main-course>
+</div>
+<div class="container-fluid">
+  <h2 class="my-4" style="color: #022334">Featured Animation Classes</h2>
+
+  <div class="card-group">
+    <div
+      class="col-sm-4 mb-2"
+      *ngFor="let course of featured_cards; let indexOfelem = index"
+    >
+      <ng-container *ngIf="indexOfelem == 0 || indexOfelem > 0">
+        <ng-container *ngIf="3 > indexOfelem">
+          <app-course [course_item]="course"></app-course>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="row my-4">
+    <div class="col col-lg-10">
+      <h2 style="color: #022334">Popular Animation Classes</h2>
+    </div>
+    <div class="col col-lg-2 d-flex justify-content-end">
+      <button class="view_btn">View All</button>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div
+      class="col-sm-4 mb-2"
+      *ngFor="let course of popular_cards; let indexOfelem = index"
+    >
+      <ng-container *ngIf="indexOfelem == 0 || indexOfelem > 0">
+        <ng-container *ngIf="3 > indexOfelem">
+          <app-course [course_item]="course"></app-course>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div
+      class="col-sm-4 mb-2"
+      *ngFor="let course of popular_cards; let indexOfelem = index"
+    >
+      <ng-container *ngIf="indexOfelem == 3 || indexOfelem > 3">
+        <ng-container *ngIf="6 > indexOfelem">
+          <app-course [course_item]="course"></app-course>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="row my-4">
+    <div class="col col-lg-10">
+      <h2 style="color: #022334">Trending Animation Classes</h2>
+    </div>
+
+    <div class="col col-lg-2 d-flex justify-content-end">
+      <button class="view_btn">View All</button>
+    </div>
+  </div>
+
+  <div class="card-group">
+    <div
+      class="col-sm-4 mb-2"
+      *ngFor="let course of trending_cards; let indexOfelem = index"
+    >
+      <ng-container *ngIf="indexOfelem == 0 || indexOfelem > 0">
+        <ng-container *ngIf="3 > indexOfelem">
+          <app-course [course_item]="course"></app-course>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+  <div class="card-group">
+    <div
+      class="col-sm-4 mb-2"
+      *ngFor="let course of trending_cards; let indexOfelem = index"
+    >
+      <ng-container *ngIf="indexOfelem == 3 || indexOfelem > 3">
+        <ng-container *ngIf="6 > indexOfelem">
+          <app-course [course_item]="course"></app-course>
+        </ng-container>
+      </ng-container>
+    </div>
+  </div>
+</div>
