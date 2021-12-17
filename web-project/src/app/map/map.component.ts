@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
@@ -17,11 +18,6 @@ export class MapComponent implements OnInit {
     maxZoom: 15,
     minZoom: 8,
   };
-  currLat: any;
-  currLon: any;
-
-  currPosition!: google.maps.LatLngLiteral;
-
   ngOnInit() {
     if (!navigator.geolocation) {
       console.log('Location not found');
@@ -31,12 +27,7 @@ export class MapComponent implements OnInit {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       };
-      this.currLat = position.coords.latitude;
-      this.currLon = position.coords.longitude;
-      this.currPosition = {
-        lat: position.coords.latitude,
-        lng: position.coords.longitude,
-      };
+      console.log(this.center);
     });
   }
 }

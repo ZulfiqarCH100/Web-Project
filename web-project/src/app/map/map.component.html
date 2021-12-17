@@ -1,4 +1,10 @@
-<p>Your Current Location!</p>
-<google-map>
-  <map-marker> </map-marker>
+<h4 style="text-align: center">Your Current Location!</h4>
+<google-map
+  height="400px"
+  width="100%"
+  [zoom]="zoom"
+  [center]="center"
+  [options]="options"
+>
+  <map-marker [position]="center"> </map-marker>
 </google-map>
