@@ -1,0 +1,31 @@
+.skills_btn {
+  background-color: transparent;
+  border: 1px solid #002333;
+  color: #002333;
+  text-decoration: none;
+  margin: 4px 4px 4px 4px;
+  border-radius: 4px;
+  font-family: gt walsheim pro, sans-serif;
+  font-weight: 700;
+  padding: 0 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  height: fit-content;
+  line-height: 26px;
+  width: fit-content;
+  font-size: 13px;
+}
+
+.skills_btn:hover {
+  background-color: #022334;
+  color: white;
+  border: 1px solid #022334;
+}
+
+.link_side_bar2 {
+  color: #022334 !important;
+  font-weight: bold !important;
+  font-size: small !important;
+}

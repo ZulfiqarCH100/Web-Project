@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-fluid">
   <div class="row bottom_container" style="background-color: #022334">
     <h2 style="color: #022334">Explore Animation Classes Online</h2>
     <div class="col-md-3 col-sm-6 col-6 p-0 float-left mb-3">
@@ -6,23 +6,11 @@
         Company
       </h6>
       <ul class="list-group">
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">About</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Careers</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Press</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links"> Blog</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Affiliates</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Partnerships</a>
+        <li
+          class="list-group-item bg-transparent border-0 p-0 mb-2"
+          *ngFor="let item of footer_data_company; let indexOfele = index"
+        >
+          <a href="#" class="bottom_btn_links">{{ item[indexOfele + 1] }}</a>
         </li>
       </ul>
     </div>
@@ -31,23 +19,11 @@
         Community
       </h6>
       <ul class="list-group">
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Go Premium</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Team Plans</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Refer a Friend</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Limited Memberships</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Scholarships</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Free Classes</a>
+        <li
+          class="list-group-item bg-transparent border-0 p-0 mb-2"
+          *ngFor="let item of footer_data_community; let indexOfele = index"
+        >
+          <a href="#" class="bottom_btn_links">{{ item[indexOfele + 1] }}</a>
         </li>
       </ul>
     </div>
@@ -57,14 +33,11 @@
         Teaching
       </h6>
       <ul class="list-group">
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Become a Teacher</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Teaching Academy</a>
-        </li>
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2">
-          <a href="#" class="bottom_btn_links">Teacher Handbook</a>
+        <li
+          class="list-group-item bg-transparent border-0 p-0 mb-2"
+          *ngFor="let item of footer_data_teaching; let indexOfele = index"
+        >
+          <a href="#" class="bottom_btn_links">{{ item[indexOfele + 1] }}</a>
         </li>
       </ul>
     </div>
@@ -89,8 +62,6 @@
               alt="playstore"
           /></a>
         </li>
-
-        <li class="list-group-item bg-transparent border-0 p-0 mb-2"></li>
       </ul>
     </div>
 
@@ -108,7 +79,7 @@
         <div class="col-lg-1 col-md-1">
           <a href="#" class="bottom_btn_links2">Privacy</a>
         </div>
-        <div class="col-lg-5 col-md-1">
+        <div class="col-xl-6 col-lg-5 col-md-4 col-xs-11">
           <a href="#" class="bottom_btn_links2">Terms</a>
         </div>
         <div class="col">

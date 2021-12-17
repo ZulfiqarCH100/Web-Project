@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row link_side_bar2">
+    <div class="col sm-auto d-none d-sm-block">RELATED SKILLS</div>
+    <div
+      class="col sm-auto d-none d-sm-block"
+      *ngFor="let skill of skills; let indexOfelement = index"
+    >
+      <button class="skills_btn" type="button">
+        {{ skill[indexOfelement + 1] }}
+      </button>
+    </div>
+  </div>
+</div>

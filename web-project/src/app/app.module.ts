@@ -23,6 +23,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseComponent } from './course/course.component';
 import { MainCourseComponent } from './main-course/main-course.component';
+import { RelatedskillsComponent } from './relatedskills/relatedskills.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MainCourseComponent } from './main-course/main-course.component';
     CoursesComponent,
     CourseComponent,
     MainCourseComponent,
+    RelatedskillsComponent,
   ], //We add componants here into the module.
   imports: [
     BrowserModule,
