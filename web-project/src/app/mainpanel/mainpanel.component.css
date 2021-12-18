@@ -72,3 +72,7 @@ body {
   color: white;
   border: 1px solid #022334;
 }
+
+.card-img-overlay {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+}
