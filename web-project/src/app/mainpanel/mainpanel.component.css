@@ -23,6 +23,8 @@ body {
   font-size: 36px !important;
   font-family: "GT Walsheim Pro", Arial, sans-serif;
   line-height: 1.22 !important;
+  margin-top: 10px;
+  margin-left: 28px;
 }
 
 .text2_on_banner {
@@ -30,14 +32,15 @@ body {
   font-size: 15px !important;
   font-family: "GT Walsheim Pro", Arial, sans-serif !important;
   line-height: 1.33 !important;
+  margin-left: 30px;
 }
 
 .button_on_banner {
-  padding: 10px 20px 10px 20px !important;
+  padding: 6px 22px 6px 22px !important;
   display: block !important;
   position: absolute !important;
-  left: 80px !important;
-  top: 150px !important;
+  left: 45px !important;
+  top: 130px !important;
   background-color: #01ff84 !important;
   border: 1px solid #01ff84 !important;
   border-radius: 6px !important;
