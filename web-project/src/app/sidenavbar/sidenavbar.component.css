@@ -17,7 +17,7 @@
   border-radius: 4px;
 }
 
-a.link_side_bar:focus {
+a.link_side_bar:active {
   background-color: #022334 !important;
   color: white !important;
   text-decoration-color: white !important;
@@ -31,4 +31,11 @@ a.link_side_bar:focus {
   border: none !important;
   border-bottom: 1px solid grey !important;
   background-color: #f4f4f4 !important;
+}
+
+.active {
+  background-color: #022334 !important;
+  color: white !important;
+  text-decoration-color: white !important;
+  border-radius: 5px !important;
 }

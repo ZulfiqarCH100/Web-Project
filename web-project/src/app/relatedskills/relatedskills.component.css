@@ -29,3 +29,7 @@
   font-weight: bold !important;
   font-size: small !important;
 }
+
+.col-auto {
+  padding: 0px;
+}

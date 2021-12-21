@@ -3,9 +3,35 @@
 }
 
 .card {
-  border-radius: 5px;
+  border-radius: 8px !important;
+  cursor: pointer;
+  box-shadow: 0 2px 4px 0 rgb(184 184 184 / 50%);
+  background-color: #fff;
+  position: relative;
 }
 
 .card:hover {
   box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15) !important;
+}
+
+.play {
+  position: absolute;
+  display: none;
+  top: 18%;
+  width: 40px;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+}
+
+.my_img {
+  border-radius: 8px 8px 0px 0px;
+}
+.card:hover .play {
+  display: block;
+}
+
+.my_img:hover {
+  opacity: 0.9;
 }

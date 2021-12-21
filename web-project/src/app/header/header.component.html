@@ -12,16 +12,35 @@
     <button
       class="navbar-toggler"
       type="button"
-      data-toggle="collapse"
-      data-target="#navbarToggleExternalContent"
-      aria-controls="navbarToggleExternalContent"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavDarkDropdown"
+      aria-controls="navbarNavDarkDropdown"
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <div class="collapse navbar-collapse bg-white" id="navbarNavDarkDropdown">
+      <div class="navbar-nav">
+        <div class="container nav-item dropdown" style="height: 631px">
+          <div class="row d-flex justify-content-left">
+            <div class="col">
+              <a href="./" class="nav-link link_side_bar_header mt-2"> Home </a>
+              <a href="./" class="nav-link link_side_bar_header mt-2">
+                Browse
+              </a>
+              <a href="./" class="nav-link link_side_bar_header mt-2">
+                Student Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="col-lg-2 col-md-3 col-sm-2">
-      <img src="assets/search_icon.PNG" class="" />
+      <img src="assets/search_icon.PNG" />
     </div>
     <div class="d-flex justify-content-end col-lg-4 col-md-4 col-sm-4">
       <span class="navbar-brand">
@@ -39,17 +58,33 @@
     </div>
   </div>
 </nav>
-<div class="d-lg-none d-md-block nav-item dropdown">
-  <a
+
+<div class="d-lg-none d-md-block dropdown">
+  <select
+    class="nav-link form-select form-select-lg"
     id="navbarScrollingDropdown2"
-    aria-expanded="false"
-    role="button"
-    class="dropdown-toggle nav-link"
-    tabindex="0"
   >
-    <span class="my-auto">Online Animation Classes</span>
-  </a>
+    <option>Online Animation Classes</option>
+    <option>Recommended</option>
+    <ng-container *ngFor="let c of create; let indexOfelement = index">
+      <option>
+        <a href="./">{{ c[indexOfelement + 1] }}</a>
+      </option>
+    </ng-container>
+
+    <ng-container *ngFor="let b of build; let indexOfelement = index">
+      <option>
+        <a href="./">{{ b[indexOfelement + 1] }}</a>
+      </option>
+    </ng-container>
+    <ng-container *ngFor="let t of thrive; let indexOfelement = index">
+      <option>
+        <a href="./">{{ t[indexOfelement + 1] }}</a>
+      </option>
+    </ng-container>
+  </select>
 </div>
+
 <nav
   class="color-nav d-none d-xl-block navbar navbar-expand-md sticky-top"
   style="background-color: #022334"
@@ -77,19 +112,99 @@
       <div class="row">
         <div class="navbar-collapse collapse">
           <div class="col-xl-1">
-            <div class="nav-item dropdown">
+            <div class="dropdown">
               <a
-                id="navbarScrollingDropdown"
-                aria-expanded="false"
+                class="dropdown-toggle"
+                href="#"
                 role="button"
-                class="dropdown-toggle nav-link"
-                tabindex="0"
+                id="navbarScrollingDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
               >
-                <span class="my-auto">Browse</span>
+                Browse
               </a>
+
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <li
+                        class="mt-1 header nav-link link_side_bar_header"
+                        style="color: #022334"
+                      >
+                        CREATE
+                      </li>
+                      <ng-container
+                        *ngFor="let c of create; let indexOfelement = index"
+                      >
+                        <a
+                          href="./"
+                          class="my-1 nav-link link_side_bar"
+                          style="color: #022334"
+                          >{{ c[indexOfelement + 1] }}</a
+                        >
+                      </ng-container>
+                    </div>
+                    <div class="col">
+                      <li
+                        class="mt-1 header nav-link link_side_bar_header"
+                        style="color: #022334"
+                      >
+                        BUILD
+                      </li>
+                      <ng-container
+                        *ngFor="let b of build; let indexOfelement = index"
+                      >
+                        <a
+                          href="./"
+                          class="my-1 nav-link link_side_bar"
+                          style="color: #022334"
+                          >{{ b[indexOfelement + 1] }}</a
+                        >
+                      </ng-container>
+
+                      <li
+                        class="mt-1 header nav-link link_side_bar_header"
+                        style="color: #022334"
+                      >
+                        THRIVE
+                      </li>
+                      <ng-container
+                        *ngFor="let t of thrive; let indexOfelement = index"
+                      >
+                        <a
+                          href="./"
+                          class="my-1 nav-link link_side_bar"
+                          style="color: #022334"
+                          >{{ t[indexOfelement + 1] }}</a
+                        >
+                      </ng-container>
+                    </div>
+                    <div class="col">
+                      <a
+                        href="#"
+                        class="my-1 nav-link link_side_bar"
+                        style="font-weight: bold; color: #022334"
+                      >
+                        All Classes</a
+                      >
+                      <a
+                        href="#"
+                        class="my-1 nav-link link_side_bar"
+                        style="font-weight: bold; color: #022334"
+                      >
+                        Student Projects</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-xl-7">
+          <div class="col-xl-8">
             <form class="d-flex">
               <input
                 placeholder="What do you want to learn today?"

@@ -1,5 +1,8 @@
 <div class="card mx-1 my-2">
-  <img variant="top" src="{{ course_item.img_src }}" />
+  <img class="my_img" variant="top" src="{{ course_item.img_src }}" />
+  <div class="play">
+    <img src="assets/play_button.png" style="width: 50px" />
+  </div>
   <div class="card-body">
     <div class="card-text">
       <div class="row">
@@ -29,10 +32,7 @@
       {{ course_item.title }}
     </div>
   </div>
-  <div
-    class="card-footer bg-white"
-    style="border: none; background-color: white"
-  >
+  <div class="card-footer bg-white" style="border: none; border-radius: 8px">
     <div class="row">
       <div class="col col-lg-10 col-md-8 col-sm-8 col-xs-10">
         {{ course_item.person_name }}

@@ -3,7 +3,7 @@
     <a
       href="./"
       class="nav-link link_side_bar"
-      style="color: #022334; font-size: medium"
+      style="color: #022334; font-size: medium; font-weight: bold"
       >All Classes</a
     >
     <li
@@ -13,9 +13,24 @@
       CREATE
     </li>
     <ng-container *ngFor="let c of create; let indexOfelement = index">
-      <a href="./" class="my-1 nav-link link_side_bar" style="color: #022334">{{
-        c[indexOfelement + 1]
-      }}</a>
+      <ng-container *ngIf="indexOfelement == 0; else notActive">
+        <a
+          href="./"
+          class="active my-1 nav-link link_side_bar"
+          style="color: #022334"
+          id="{{ c[indexOfelement + 1] }}"
+          >{{ c[indexOfelement + 1] }}</a
+        >
+      </ng-container>
+      <ng-template #notActive>
+        <a
+          href="./"
+          class="my-1 nav-link link_side_bar"
+          style="color: #022334"
+          id="{{ c[indexOfelement + 1] }}"
+          >{{ c[indexOfelement + 1] }}</a
+        >
+      </ng-template>
     </ng-container>
 
     <li

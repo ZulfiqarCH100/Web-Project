@@ -16,6 +16,7 @@ body {
   opacity: 1.5;
   filter: grayscale(30%) !important;
   border-radius: 8px !important;
+  border: none;
 }
 
 .text1_on_banner {

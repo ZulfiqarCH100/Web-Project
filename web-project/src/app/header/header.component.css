@@ -6,10 +6,19 @@
   color: #01ff84;
 }
 
+.link_side_bar:hover {
+  background-color: #dcdee1;
+  color: #022334;
+  border-radius: 4px;
+}
+
 #navbarScrollingDropdown {
   color: #01ff84;
   font-weight: bold;
   margin-right: 5px !important;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
 }
 
 #navbarScrollingDropdown1 {
@@ -21,9 +30,10 @@
 #navbarScrollingDropdown2 {
   color: #022334;
   font-weight: bolder;
-
+  border: none;
   margin-top: 20px !important;
   font-size: xx-large;
+  background-color: transparent;
 }
 
 .links_nav_bar {
@@ -46,6 +56,10 @@
   font-size: large !important;
   border-radius: 4px !important;
   color: #022334 !important;
+}
+
+.my_button:hover {
+  background-color: rgb(79, 216, 79) !important;
 }
 
 .my_search {
@@ -83,5 +97,5 @@
   font-size: medium !important;
   border: none !important;
   border-bottom: 1px solid grey !important;
-  background-color: #f4f4f4;
+  background-color: transparent;
 }

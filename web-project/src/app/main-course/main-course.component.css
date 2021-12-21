@@ -23,5 +23,23 @@ h5 {
 }
 
 .card:hover {
-  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+  box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15) !important;
+}
+
+.play {
+  position: absolute;
+  display: none;
+  top: 40%;
+  width: 40px;
+  margin: 0 auto;
+  left: 0px;
+  right: 54%;
+  z-index: 100;
+}
+
+.my_img {
+  border-radius: 8px 0px 0px 8px;
+}
+.card:hover .play {
+  display: block;
 }

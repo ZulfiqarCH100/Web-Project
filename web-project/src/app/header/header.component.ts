@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth/auth.service';
+import * as data from 'src/app/Data/common_data.json';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +8,15 @@ import { AuthService } from '../auth/auth.service';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  constructor(private authService: AuthService) {}
+  create: any;
+  build: any;
+  thrive: any;
+  constructor(private authService: AuthService) {
+    this.create = data.default['Create'];
+    this.build = data.default['Build'];
+    this.thrive = data.default['Thrive'];
+    console.log(this.create);
+  }
 
   ngOnInit(): void {}
 
