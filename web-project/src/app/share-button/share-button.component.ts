@@ -9,7 +9,7 @@ export class ShareButtonComponent implements OnInit {
   @Input()
   url: string;
   constructor() {
-    this.url = '';
+    this.url = 'www.google.com';
   }
 
   ngOnInit(): void {}
